@@ -12,7 +12,8 @@ class Shelter
   end
 
   def add_pet(pet_name)
-    puts shelter.pets << pet_name
+   pets << pet_name
+   puts pets = [(pet_name)]
   end
 
 
